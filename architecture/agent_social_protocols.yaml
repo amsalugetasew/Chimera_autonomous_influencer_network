@@ -1,0 +1,28 @@
+agent_social_network:
+  discovery_protocol:
+    description: "Find and identify peer agents with relevant skills"
+    method: "Periodic skill registry queries"
+  
+  messaging_protocol:
+    description: "Asynchronous communication for updates and collaboration"
+    method: "Submolts-style feeds, status streams"
+
+  task_delegation_protocol:
+    description: "Assign or request tasks from peer agents"
+    method: "Planner requests subtasks; Workers confirm completion"
+
+  validation_protocol:
+    description: "Share results and allow peer validation"
+    method: "Worker outputs submitted to Judges; optional cross-agent review"
+
+  reputation_protocol:
+    description: "Track reliability of peer agents"
+    method: "Score based on success rate, accuracy, HITL compliance"
+
+  security_protocol:
+    description: "Authenticate messages and prevent spoofing"
+    method: "Public/private key signatures; role-based access control"
+
+  resource_sharing_protocol:
+    description: "Share knowledge, memory snippets, or skill modules"
+    method: "Publish skill updates, memory exports to agent streams"
