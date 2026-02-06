@@ -1,6 +1,14 @@
-For my Claude I have successfully installed but when I run it shows me an error like below
+# Claude Code Installation & Connection Error
 
+## Status
 
+Claude Code has been **successfully installed**, but it fails at runtime with a connection error when attempting to reach Anthropic services.
+
+---
+
+## Runtime Output
+
+```text
 Welcome to Claude Code v2.1.32
 …………………………………………………………………………………………………………………………………………………………
 
