@@ -1,0 +1,13 @@
+[project]
+name = "project-chimera"
+version = "0.1.0"
+description = "Autonomous AI Influencer Factory"
+requires-python = ">=3.11"
+
+dependencies = [
+  "pytest",
+  "pydantic"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
