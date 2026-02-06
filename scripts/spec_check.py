@@ -15,7 +15,7 @@ def main():
         if not os.path.exists(spec):
             fail(f"Missing required spec: {spec}")
 
-    print("✅ Spec presence check passed")
+    print("✅ Spec presence check passed Successfully found all required specs.")
 
 if __name__ == "__main__":
     main()
